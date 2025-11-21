@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    double d;
+    char str[50];
+
+    scanf("%lf", &d);
+    sprintf(str, "%lf", d);
+
+    printf("String: %s\n", str);
+
+    return 0;
+}
+
+/*
+Input:
+3.14159
+
+Output:
+String: 3.141590
+*/
