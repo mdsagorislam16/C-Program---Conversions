@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char s[50];
+    scanf("%s", s);
+
+    int dec = strtol(s, NULL, 8);
+    printf("Decimal: %d\n", dec);
+
+    return 0;
+}
+
+/*
+Input:
+17
+
+Output:
+Decimal: 15
+*/
