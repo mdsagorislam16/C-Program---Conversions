@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    float f;
+    char str[50];
+
+    scanf("%f", &f);
+    sprintf(str, "%f", f);
+
+    printf("String: %s\n", str);
+
+    return 0;
+}
+
+/*
+Input:
+3.14
+
+Output:
+String: 3.140000
+*/
