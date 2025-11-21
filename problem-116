@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    printf("Hexadecimal: %X\n", n);
+
+    return 0;
+}
+
+/*
+Input:
+26
+
+Output:
+Hexadecimal: 1A
+*/
