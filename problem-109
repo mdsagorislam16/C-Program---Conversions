@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char s[50];
+    scanf("%s", s);
+
+    long num = strtol(s, NULL, 10);
+    printf("Long: %ld\n", num);
+
+    return 0;
+}
+
+/*
+Input:
+123456
+
+Output:
+Long: 123456
+*/
