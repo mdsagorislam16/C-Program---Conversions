@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    char ch;
+    scanf(" %c", &ch);
+
+    int n = ch - '0';
+    printf("Int: %d\n", n);
+
+    return 0;
+}
+
+/*
+Input:
+7
+
+Output:
+Int: 7
+*/
